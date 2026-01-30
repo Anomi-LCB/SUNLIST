@@ -15,7 +15,7 @@ function App() {
 
     return (
         <>
-            <h1 className="title">2026 중직자 선거 투표인 명단</h1>
+            <h1 className="title">2026.2.1 공동의회 선거인명부 확인</h1>
 
             <SearchInput value={query} onChange={setQuery} count={results.length} />
 
@@ -36,7 +36,7 @@ function App() {
             {/* Initial State / Instructions could go here if query is empty */}
             {query.length === 0 && (
                 <div className="empty-state">
-                    이름 또는 생년월일(6 or 8자리)을 입력하세요.
+                    이름을 입력하세요.
                 </div>
             )}
         </>

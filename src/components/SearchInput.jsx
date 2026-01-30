@@ -9,7 +9,7 @@ const SearchInput = ({ value, onChange, count }) => {
                 <input
                     type="text"
                     className="search-input"
-                    placeholder="이름, 생년월일(6 or 8), 전화번호 입력"
+                    placeholder=""
                     value={value}
                     onChange={(e) => onChange(e.target.value)}
                     autoFocus
